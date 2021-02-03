@@ -37,7 +37,7 @@ public class ChessMatch {
 
     public boolean getCheck() {return check;}
 
-    public boolean getCheckMate() {return checkMate;}
+    public boolean getCheckMate() {return !checkMate;}
 
     public ChessPiece[][] getPieces() {
         ChessPiece[][] mat = new ChessPiece[board.getRows()][board.getColumns()];
